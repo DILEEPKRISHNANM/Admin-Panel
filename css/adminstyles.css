@@ -1,0 +1,122 @@
+/* style for home nav bar start here */
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  
+  
+}
+.header {
+    overflow: hidden;
+    background-color: white;
+    /* #f1f1f1; */
+    padding: 20px 10px;
+    box-shadow: 0px -10px 30px grey;
+  }
+  
+  .header a ,#logo{
+    float: left;
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    max-width: 300px;
+    
+  }
+.header #logo{
+    max-height: 200px;
+}
+.logoimg a:hover{
+  background-color: transparent;
+}
+.header-right a:hover {
+  background-color: #dbd9d5;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  display: inline;
+  
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+/* style for home nav bar end here */
+
+/* event-box start here */
+.event-box{
+    padding: 0%;
+    margin: 0%;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: white;
+    /* border-color: #a8aaad; */
+    border-color: transparent;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #e0e0e0;
+  }
+  .event-box:hover{
+    box-shadow: 0px 0px 30px #e0e0e0;
+    transition: 0.5s;
+  }
+  p.pd{
+    text-align: right;
+    font-size: 20px;
+    color: #a8aaad;
+  }
+  img.pin{
+    max-width: 50px;
+  }
+  p.ev-title{
+    text-align: left;
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+  .det-button{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    border-color: transparent;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  .det-button:hover{
+    background-color: white;
+    color: dodgerblue;
+    font-size: 20px;
+    border-color: dodgerblue;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  /* event-box end here */
