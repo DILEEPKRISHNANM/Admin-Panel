@@ -120,3 +120,110 @@ body {
     transition: 0.3s;
   }
   /* event-box end here */
+
+  /* style for eventdetails start here */
+#content2{
+  padding-right:30px;
+  margin-top: 80px;
+  margin-left: 200px;
+  }
+  #left{
+    padding: 10px;
+    text-align: justify;
+    width: 90%;
+    min-height: 700px;
+    margin-left: 40px;
+  }
+  #right{
+  padding: 30px;
+  font-size:17px;
+  border: 1px;
+  width: 400px;
+  border-style:solid;
+  border-color: #d2d4d2;
+  border-radius: 10px;
+  margin-left: 30px;
+  float:right;
+  }
+  #accept{
+    margin-top: 25px;
+    background-color: rgb(12, 167, 12);
+    padding: 20px;
+    color: white;
+    width: 45%;
+    border-color: transparent;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+  #ignore{
+    margin-top: 25px;
+    background-color: red;
+    padding: 20px;
+    color: white;
+    width: 45%;
+    border-color: transparent;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+  #accept:hover{
+    background-color: rgb(12, 133, 12);
+    transition: .3s;
+  }
+  #ignore:hover{
+    background-color: rgb(179, 10, 10);
+    transition: .3s;
+  }
+  .e-overview{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .p1{
+    text-indent: 50px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-size: 20px;
+  }
+  .h1{
+    font-size: 25px;
+  }
+  .e-ov-text{
+    display: inline;
+    line-height: 1.5;
+  }
+  /* style for eventdetails end here */
+
+  /*style for profile start here */
+
+#contain1{
+  margin-left: 30%;
+  }
+  .bord{
+  border: 2px white;
+  border-radius: 25px;
+  padding-top:10px;
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:white;
+  }
+  #contain2{
+  align-items: center;
+  margin-left: 40%;
+  color: dodgerblue;
+  }
+  .bord1{
+  border: 2px white;
+  width:200px;
+  height:200px;
+  border-radius: 15px;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:70px;
+  padding-right:20px;
+  background-color:white;
+  align:center;
+  font-size:20px;
+  }
+  
+  /*style for profile end here */
+  
