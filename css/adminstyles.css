@@ -236,4 +236,50 @@ body {
   }
   
   /*style for profile end here */
+
+  /*style for create event start here */
+#contain4{
+  text-align:left;
+  font-size:25px;
+  top:40px;
+  }
+  .bord3{
+  padding-bottom:5px;
+  margin-top: 50px;
+  }
+  .ip-create{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #submit-e{
+    color: white;
+    font-size: 20px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: rgb(47, 148, 43);
+  }
+  #submit-e:hover{
+    background-color: #518f49;
+    transition: .3s;
+  }
+  #reset-e{
+    color: white;
+    font-size: 20px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: rgb(241, 0, 0);
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+  #reset-e:hover{
+    background-color: rgb(180, 23, 23);
+    transition: .3s;
+  }
+  /*style for create event end here */
   
