@@ -68,7 +68,17 @@ body {
   }
 }
 /* style for home nav bar end here */
-
+/* style for footer start here*/
+.footer-{
+  margin: 0;
+  position: relative;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 10px;
+  bottom:0;
+  width: 100%;
+}
+/* style for footer end here */
 /* event-box start here */
 .event-box{
     padding: 0%;

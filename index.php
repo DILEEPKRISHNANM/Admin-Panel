@@ -1,27 +1,21 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/css/adminstyles.css">
-  </head>
-  <body>
-    <!-- header start -->
-    <div class="header">
-      <a class="logoimg" href="#">
-        <img id="logo" src="/images/logo.png" alt="company logo" />
-      </a>
-      <div class="header-right">
-        <a class="active" href="/index.html">Home</a>
-        <a href="#">Add</a>
-        <a href="#">Logout</a>
-      </div>
-    </div>
-    <!-- header end -->
+<?php
+
+session_start();
+ 
+// Check if the user is logged in or not
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: adminlogin.php");
+    exit;
+}
+?>
+<?php
+  include_once "php/adminheader.inc.php";
+?>
   <!-- event list start -->
   <table class="event-box" style="width: 80%">
     <tr>
       <th rowspan="3">
-        <img class="pin" src="/images/pin.PNG" alt="Blue pin" />
+        <img class="pin" src="http://localhost/Admin-Panel/images/pin.PNG" alt="Blue pin" />
       </th>
       <th>
         <p class="ev-title">30 days of google cloud program</p>
@@ -38,7 +32,7 @@
   <table class="event-box" style="width: 80%">
     <tr>
       <th rowspan="3">
-        <img class="pin" src="/images/pin.PNG" alt="Blue pin" />
+        <img class="pin" src="http://localhost/Admin-Panel/images/pin.PNG" alt="Blue pin" />
       </th>
       <th>
         <p class="ev-title">30 days of google cloud program</p>
@@ -55,7 +49,7 @@
   <table class="event-box" style="width: 80%">
     <tr>
       <th rowspan="3">
-        <img class="pin" src="/images/pin.PNG" alt="Blue pin" />
+        <img class="pin" src="http://localhost/Admin-Panel/images/pin.PNG" alt="Blue pin" />
       </th>
       <th>
         <p class="ev-title">30 days of google cloud program</p>
@@ -69,4 +63,6 @@
   </table>
   <!-- event list end -->
   </body>
-</html>
+  <?php
+  include_once "php/adminfooter.inc.php";
+?>
