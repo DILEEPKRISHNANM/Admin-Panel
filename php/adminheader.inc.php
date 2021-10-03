@@ -11,8 +11,8 @@
         <img id="logo" src="http://localhost/Admin-Panel/images/logo.png" alt="Eventima logo" />
       </a>
       <div class="header-right">
-        <a class="active" href="/index.html">Home</a>
-        <a href="#">Add</a>
+        <a class="active" href="index.php">Home</a>
+        <a href="reg_student.php">Add</a>
         <a href="php/adminlogout.inc.php">Logout</a>
       </div>
     </div>
