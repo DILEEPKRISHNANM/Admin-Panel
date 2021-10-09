@@ -6,7 +6,7 @@ define('DB_PASSWORD', '');
 define('DB_NAME', 'event_portal');
  
 //connect to database
-$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME,"3325");
+$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
  
 // Check connection
 if($link === false){
