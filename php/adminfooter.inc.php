@@ -8,7 +8,7 @@
   bottom:0;
   width: 100%;
   vertical-align: end;
-  position:absolute;
+  position: relative;
 }
 </style>
     <div class="footer-">
@@ -16,4 +16,4 @@
       <p><a href="#">eventima@team6.com</a></p>
     </div>
   </footer>
-</html>
+

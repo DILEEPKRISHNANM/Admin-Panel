@@ -67,6 +67,10 @@ body {
     float: none;
   }
 }
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
 /* style for home nav bar end here */
 /* style for footer start here*/
 .footer-{
@@ -85,6 +89,7 @@ body {
     margin: 0%;
     margin-top: 30px;
     margin-left: 100px;
+    
     background-color: white;
     /* border-color: #a8aaad; */
     border-color: transparent;
@@ -94,6 +99,7 @@ body {
   .event-box:hover{
     box-shadow: 0px 0px 30px #e0e0e0;
     transition: 0.5s;
+    
   }
   p.pd{
     text-align: right;
@@ -116,6 +122,8 @@ body {
     width: 200px;
     height: 50px;
     margin-left: 20px;
+    margin-right: 20px;
+
     border-radius: 10px;
   }
   .det-button:hover{

@@ -61,9 +61,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } 
 
 ?>
-<?php
-include_once "php/adminheader.inc.php";
-?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="http://localhost/Admin-Panel/css/adminstyles.css">
+  </head>
+  <body id="page-container">
+    <!-- header start -->
+    <div class="header">
+      <a class="logoimg" href="#">
+        <img id="logo" src="http://localhost/Admin-Panel/images/logo.png" alt="Eventima logo" />
+      </a>
+      <div class="header-right">
+        <a  href="index.php">Home</a>
+        <a class="active" href="reg_student.php">Add</a>
+        <a href="php/adminlogout.inc.php">Logout</a>
+      </div>
+    </div>
+    <!-- header end -->
 <style>
   #contain4 {
     text-align: left;
@@ -127,10 +143,7 @@ if ($showAlert) {
             
         </div> ';
 }
-// <button type="button" class="close"
-//                 data-dismiss="alert" aria-label="Close"> 
-//                 <span aria-hidden="true">×</span> 
-//             </button> 
+
 
 if ($showError) {
 
