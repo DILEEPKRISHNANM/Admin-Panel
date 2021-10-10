@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="http://localhost/Admin-Panel/css/adminstyles.css">
   </head>
-  <body>
+  <body id="page-container">
     <!-- header start -->
     <div class="header">
       <a class="logoimg" href="#">
