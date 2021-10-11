@@ -13,7 +13,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 ?>
 <?php
     require_once "php/connect.php";
-    $result = mysqli_query($link, "select * from event where flag=false");
+    // $result = mysqli_query($link, "select * from event where flag=false");
+    $result = mysqli_query($link, "CALL `getevents`();");
     $row = mysqli_num_rows($result);
     for ($i = 0; $i < $row; $i++) {
       while ($row = mysqli_fetch_array($result)) {
