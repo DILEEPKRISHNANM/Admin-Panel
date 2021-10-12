@@ -47,11 +47,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $sql2 = "INSERT INTO `login` ( `s_id`,`s_user`, `s_pass`) VALUES ('$id','$username','$password')";
       $result2 = mysqli_query($link, $sql2);
 
-      if ($result1 || $result2) {
-        $showAlert = true;
-      }
+    if ($result1 || $result2) {
+      $showAlert = true;
+    }
     } else {
-      $showError = "Passwords do not match";
+      $showError = "Something went wrong !";
     }
   }
 
